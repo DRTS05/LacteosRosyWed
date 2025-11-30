@@ -52,14 +52,12 @@ export default defineConfig({
     },
   },
 
-  // Ruta base relativa para que GitHub Pages cargue bien los assets
-  base: "./",
+ base: "./",  // usar ruta relativa para GitHub Pages
 
-  // Generar directamente en docs (carpeta que usa GitHub Pages)
-  build: {
-    target: 'esnext',
-    outDir: 'docs',
-  },
+build: {
+  target: 'esnext',
+  outDir: 'build',
+},
 
   server: {
     port: 3000,
