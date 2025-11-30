@@ -52,10 +52,10 @@ export default defineConfig({
     },
   },
 
-  // Ruta base relativa → necesario para GitHub Pages
+  // Ruta base relativa para que GitHub Pages cargue bien los assets
   base: "./",
 
-  // Build directo en docs → GitHub Pages lo lee automáticamente
+  // Generar directamente en docs (carpeta que usa GitHub Pages)
   build: {
     target: 'esnext',
     outDir: 'docs',
