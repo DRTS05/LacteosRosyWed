@@ -52,6 +52,10 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
+
+    // <<< AÑADIR ESTA LÍNEA >>>
+  base: "/LacteosRosyWed/",
+
     build: {
       target: 'esnext',
       outDir: 'build',
